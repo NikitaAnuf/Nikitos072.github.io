@@ -6,13 +6,13 @@
     top: 0;
     left: 0;
     position: fixed;
-    z-index: 101;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18pt;
 }
 .logo {
     color: blue;
     font-size: 24pt;
+    height: 30px;
 }
 .text {
     font-size: 14pt;
