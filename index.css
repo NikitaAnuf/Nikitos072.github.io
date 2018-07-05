@@ -13,11 +13,59 @@
     color: blue;
     font-size: 24pt;
     height: 30px;
+    transition-property: font-size;
+    transition-timing-function: linear;
+    transition-duration: 1s;
 }
 .text {
     font-size: 14pt;
     font-family: 'Times New Roman', Times, serif;
 }
-.ulhref{
-    text-decoration: black;
+.menu_href{
+    transition-timing-function: linear;
+    transition-property: color;
+    transition-duration: 1s;
+    color: black;
+}
+.menu_href:hover{
+    color: red;
+}
+.logo:hover{
+    font-size: 30pt;
+}
+.image_index{
+    height: 100px;
+    transition-property: height;
+    transition-timing-function: linear;
+    transition-duration: 1s;
+}
+.image_index:hover{
+    height: 120px;
+}
+.image_catalog{
+    height: 300px;
+    transition-property: height;
+    transition-timing-function: linear;
+    transition-duration: 1s;
+}
+.image_catalog:hover{
+    height: 335px;
+}
+.button{
+    background-color: lightgreen;
+    transition-property: background-color,;
+    transition-timing-function: linear;
+    transition-duration: 1s;
+}
+.button:hover{
+    background-color: rgb(231, 231, 54);
+}
+.button_href{
+    color: black;
+    transition-property: color;
+    transition-timing-function: linear;
+    transition-duration: 1s;
+}
+.button_href:hover{
+    color: red;
 }
